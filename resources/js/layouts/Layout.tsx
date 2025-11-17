@@ -17,8 +17,6 @@ export default function Layout({
     const storedValue = localStorage.getItem("mini-sidebar");
     const [sidePanel, setSidePanel] = useState(storedValue == "no");
 
-    // console.log(storedValue);
-
     const toggleSidePanel = () => {
         localStorage.setItem(
             "mini-sidebar",
@@ -59,7 +57,7 @@ export default function Layout({
                     <main
                         className={cn(
                             tabs ? "mt-24" : "mt-14",
-                            "font-sans flex flex-1 flex-col gap-4 p-4 lg:gap-6 lg:p-6 sidebar-light",
+                            "font-sans flex flex-1 flex-col sidebar-light",
                             className
                         )}
                     >

@@ -23,6 +23,9 @@ class Handler extends ExceptionHandler
      */
     public function register(): void
     {
+        // Suppress deprecation warnings
+        error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
+
         $this->reportable(function (Throwable $e) {
             //
         });
