@@ -13,7 +13,34 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                sans: ['Cairo', 'Tajawal', 'system-ui', ...defaultTheme.fontFamily.sans],
+                arabic: ['Cairo', 'Tajawal', 'system-ui'],
+            },
+            colors: {
+                primary: {
+                    50: '#E6FFF7',
+                    100: '#B3FFEA',
+                    200: '#80FFDC',
+                    300: '#4DFFCF',
+                    400: '#1AFFC1',
+                    500: '#00D991', // Main green from Figma
+                    600: '#00B378',
+                    700: '#008D5F',
+                    800: '#006746',
+                    900: '#00412D',
+                },
+                gray: {
+                    50: '#F9FAFB',
+                    100: '#F3F4F6',
+                    200: '#E5E7EB',
+                    300: '#D1D5DB',
+                    400: '#9CA3AF',
+                    500: '#6B7280',
+                    600: '#4B5563',
+                    700: '#374151',
+                    800: '#1F2937',
+                    900: '#111827',
+                },
             },
         },
     },

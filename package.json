@@ -7,8 +7,6 @@
         "translate": "php artisan zora:generate"
     },
     "dependencies": {
-        "ag-grid-community": "^32.0.2",
-        "ag-grid-react": "^32.0.2",
         "@ag-grid-community/client-side-row-model": "^32.1.0",
         "@ag-grid-community/core": "^32.1.0",
         "@ag-grid-community/locale": "^32.1.0",
@@ -98,6 +96,8 @@
         "@upstash/ratelimit": "^2.0.1",
         "@upstash/redis": "^1.34.0",
         "@vitejs/plugin-react": "^4.3.1",
+        "ag-grid-community": "^32.0.2",
+        "ag-grid-react": "^32.0.2",
         "autoprefixer": "^10.4.19",
         "class-variance-authority": "^0.7.0",
         "clsx": "^2.1.1",
@@ -115,6 +115,7 @@
         "react-dnd-html5-backend": "^16.0.1",
         "react-dom": "^18.3.1",
         "react-hook-form": "^7.52.1",
+        "react-icons": "^5.5.0",
         "react-intl": "^6.6.8",
         "react-router-dom": "^6.25.1",
         "sonner": "^1.5.0",
